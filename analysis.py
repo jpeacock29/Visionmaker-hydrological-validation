@@ -16,7 +16,7 @@ from sklearn.metrics.pairwise import euclidean_distances
 import time
 
 # Uncomment this to make the plots inline!
-# %matplotlib inline
+get_ipython().magic('matplotlib inline')
 
 # Turn off chained assignment warning
 pd.options.mode.chained_assignment = None

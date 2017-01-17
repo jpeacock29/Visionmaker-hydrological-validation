@@ -1,5 +1,5 @@
-flood_index,time_start,time_end,latitude_center,longitude_center,diameter,duration,number_of_reports,central_park_daily_precipitation_inches,,,visionmaker_total_rainfall,visionmaker_floodwater_prediction,visionmaker_stormwater_prediction
-1,2015-01-18 11:55:00,2015-01-18 13:23:00,40.59206298,-74.07403314,0.226347259,0 days 01:28:00.000000000,5,2.1,thunderstorms,Future Climate in 2080s,1.93,0,
+flood_index,time_start,time_end,latitude_center,longitude_center,diameter,duration,number_of_reports,central_park_daily_precipitation_inches,visionmaker_duration_name,visionmaker_climate_scenario,visionmaker_total_rainfall,visionmaker_floodwater_prediction,visionmaker_stormwater_prediction
+1,2015-01-18 11:55:00,2015-01-18 13:23:00,40.59206298,-74.07403314,0.226347259,0 days 01:28:00.000000000,5,2.1,Thunderstorms,Future Climate in 2080s,1.93,0,
 2,2015-02-22 11:08:00,2015-02-22 12:56:00,40.85813908,-73.86767044,0.043848996,0 days 01:48:00.000000000,5,0.1,,,,,
 3,2015-02-22 13:47:00,2015-02-22 23:18:00,40.70140564,-73.76695165,0.237586839,0 days 09:31:00.000000000,5,0.1,,,,,
 4,2015-03-04 09:16:00,2015-03-04 23:03:00,40.79991669,-73.94248001,0.105612595,0 days 13:47:00.000000000,7,0.25,,,,,
@@ -24,4 +24,4 @@ flood_index,time_start,time_end,latitude_center,longitude_center,diameter,durati
 23,2015-09-09 16:37:00,2015-09-10 13:33:00,40.60862474,-74.06161259,0.345425811,0 days 20:56:00.000000000,5,1.58,Thunderstorms,Past Climate 1609,1.575,0,881247
 24,2015-09-30 00:00:00,2015-09-30 15:54:00,40.66511941,-73.85297885,0.422605266,0 days 15:54:00.000000000,11,1.26,Thunderstorms,Past Climate 1609,1.575,0,
 25,2015-10-01 18:14:00,2015-10-02 18:30:00,40.69500143,-73.78975039,0.062282276,1 days 00:16:00.000000000,6,1.17,Showers,Future Climate 2080s,0.88,0,
-26,2015-10-28 17:15:00,2015-10-28 23:37:00,40.69484292,-73.78999882,0.078512684,0 days 06:22:00.000000000,8,1.4,,Past Climate 1609,1.575,0,
+26,2015-10-28 17:15:00,2015-10-28 23:37:00,40.69484292,-73.78999882,0.078512684,0 days 06:22:00.000000000,8,1.4,Thunderstorms,Past Climate 1609,1.575,0,

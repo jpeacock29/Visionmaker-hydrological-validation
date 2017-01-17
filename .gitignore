@@ -25,7 +25,6 @@
 *.log
 *.sql
 *.sqlite
-*.csv
 
 # OS generated files #
 ######################
@@ -40,3 +39,7 @@ Thumbs.db
 .ipynb_checkpoints
 *.png
 *.pdf
+
+inputs/*
+outputs_0/*
+

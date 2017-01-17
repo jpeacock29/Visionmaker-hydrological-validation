@@ -1,0 +1,32 @@
+duration_name,duration_value_hours,climate_scenario,intensity_in_per_hr),total_rainfall_inches
+Clear Day,0,*,0,0
+Showers,2,Past Climate in 1609,0.36,0.72
+Showers,2,Baseline Climate,0.4,0.8
+Showers,2,Future Climate in 2020s,0.42,0.84
+Showers,2,Future Climate in 2050s,0.43,0.86
+Showers,2,Future Climate in 2100s,0.436,0.872
+Showers,2,Future Climate in 2080s,0.44,0.88
+Thunderstorms,1,Past Climate in 1609,1.575,1.575
+Thunderstorms,1,Baseline Climate,1.75,1.75
+Thunderstorms,1,Future Climate in 2020s,1.84,1.84
+Thunderstorms,1,Future Climate in 2050s,1.88,1.88
+Thunderstorms,1,Future Climate in 2100s,1.9075,1.9075
+Thunderstorms,1,Future Climate in 2080s,1.93,1.93
+Rainy Day,6,Past Climate in 1609,0.585,3.51
+Rainy Day,6,Baseline Climate,0.65,3.9
+Rainy Day,6,Future Climate in 2020s,0.68,4.08
+Rainy Day,6,Future Climate in 2050s,0.7,4.2
+Rainy Day,6,Future Climate in 2100s,0.7085,4.251
+Rainy Day,6,Future Climate in 2080s,0.72,4.32
+Soaking Storm,12,Past Climate in 1609,0.54,6.48
+Soaking Storm,12,Baseline Climate,0.6,7.2
+Soaking Storm,12,Future Climate in 2020s,0.63,7.56
+Soaking Storm,12,Future Climate in 2050s,0.65,7.8
+Soaking Storm,12,Future Climate in 2100s,0.654,7.848
+Soaking Storm,12,Future Climate in 2080s,0.66,7.92
+Severe Storm,24,Past Climate in 1609,0.99,23.76
+Severe Storm,24,Baseline Climate,1.1,26.4
+Severe Storm,24,Future Climate in 2020s,1.155,27.72
+Severe Storm,24,Future Climate in 2050s,1.1825,28.38
+Severe Storm,24,Future Climate in 2100s,1.199,28.776
+Severe Storm,24,Future Climate in 2080s,1.21,29.04

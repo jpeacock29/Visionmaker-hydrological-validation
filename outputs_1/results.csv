@@ -1,6 +1,7 @@
-number_of_storm_periods,19
-n_311_flooding_reports,9188
 n_outliers,2959
-miles_per_degree_lon,52.34791169782939
+number_of_storm_periods,19
 n_floods,28
+n_311_flooding_reports,9188
+miles_per_degree_lon,52.34791169782939
+eps,0.0036230744587486775
 miles_per_degree_lat,69.00217007583774

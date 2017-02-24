@@ -7,8 +7,11 @@ author:
     - Maya Kutz
     - New York City Engineers for a Sustainable World
 date: \today{}
-abstract: 
+abstract:
+toc: true
 ---
+
+\newpage{}
 
 Introduction
 ============
@@ -44,37 +47,38 @@ For each flooding event, the aggregated precipitation was used to model the floo
 3. The aggregated precipitation of the flooding event is next converted to the appropriate Visionmaker NYC parameters. Internally, the Visionmaker NYC model uses the product of two parameters, storm duration and storm intensity, to determine the total precipitation of a storm. Since Visionmaker NYC uses a “bucket model” in determining floodwater output, only this total precipitation affects the results.[^5] Externally, these two parameters are determined by two broader parameters, “Climate” and “Precipitation Event”. The Visionmaker NYC parameters used for each flood event and the total precipitation are found in columns `visionmaker_precipitation_event`, `visionmaker_climate` and `visionmaker_total_precipitation`, respectively, of `Visionmaker_flood_predictions.csv`. These values were selected with the aide of a table relating each combination of “Climate” and “Precipitation Event” to the corresponding total precipitation[^6] and chosen to closely follow the observed precipitation.
 4. After inputting the appropriate values for the “Climate” and “Precipitation Event”, under “Environmental Performance” section “Water”, the value “Floodwater” is selected from the drop-down menu. The displayed value is reported in column `visionmaker_floodwater` of `Visionmaker_flood_predictions.csv`.
 
-Results and Discussion
-======================
+Results & Discussion
+====================
+![The 26 clusters of flood reports plotted over an outline of New York City. Note the somewhat darker points where two clusters coincide.](../outputs_1/flood_events_and_reports_by_location.png)
+
 Using the 311 data, 26 flood events were identified (`Outputs_1/311_2015_floods.csv`). As a sanity check, we observe that almost all flood events identified occurred during periods of significant observed precipitation in the historical weather record.  Furthermore, flood events often overlap geographically (Fig 1), having flooded during multiple storm events, as might be expected of a low-lying area prone to flooding. Elevation data might also be considered in the future to further validate the identified flood events. These checks give us some assurance that our identified flood events are plausible.
 
 Using the 311 data, 26 flood events were identified (`Outputs_1/311_2015_floods.csv`). As a sanity check, we observe that almost all flood events identified occurred during periods of significant observed precipitation in the historical weather record.  Furthermore, flood events often overlap geographically (Fig 1), having flooded during multiple storm events, as might be expected of a low-lying area prone to flooding. Elevation data might also be considered in the future to further validate the identified flood events. These checks give us some assurance that our identified flood events are plausible.
 
 Of the 26 flood events, we modeled a sample of 10 in Visionmaker, specifically choosing those with the highest precipitation. The Visionmaker NYC model did not predict flooding at any of the reported sites under the observed conditions.
 
-    - Margin of error, since floods may occur through mechanisms outside the model, like trash clogging a drainway or pipe bursts. However, we would expect this to be only a fraction of the floods.
-    - Since the bucket model is used, there is no time dependence. Nuisance flooding, as we've tested here, is generally a transient phenomena, likely occurring only during brief periods of intense precipitation. The generally brief durations of reported floods weakly support this notion. This might best account for the disagreement of prediction with observation.
+- Margin of error, since floods may occur through mechanisms outside the model, like trash clogging a drainway or pipe bursts. However, we would expect this to be only a fraction of the floods.
+- Since the bucket model is used, there is no time dependence. Nuisance flooding, as we've tested here, is generally a transient phenomena, likely occurring only during brief periods of intense precipitation. The generally brief durations of reported floods weakly support this notion. This might best account for the disagreement of prediction with observation.
 
+Conclusions & Suggestions
+=========================
+- allow more precise or direction manipulation of total rainfall in storm events
+- allow search by longitude and latitude
+- The flooding model might be adjusted to include time dependence, for example, by considering a precipitation rate exceeding the drainage rate as a cause of temporary flooding.
+- Consider changing the nomenclature of "floodwaters" since it does not correspond to the common understanding of a flood.
+- Could low sewer volume estimates be to blame?e of 10 in Visionmaker, specifically choosing those with the highest precipitation. The Visionmaker NYC model did not predict flooding at any of the reported sites under the observed conditions.
+
+- Margin of error, since floods may occur through mechanisms outside the model, like trash clogging a drainway or pipe bursts. However, we would expect this to be only a fraction of the floods.
+- Since the bucket model is used, there is no time dependence. Nuisance flooding, as we've tested here, is generally a transient phenomena, likely occurring only during brief periods of intense precipitation. The generally brief durations of reported floods weakly support this notion. This might best account for the disagreement of prediction with observation.
 - suggestions
-    - allow more precise or direction manipulation of total rainfall in storm events
-    - allow search by longitude and latitude
-    - The flooding model might be adjusted to include time dependence, for example, by considering a precipitation rate exceeding the drainage rate as a cause of temporary flooding.
-    - Consider changing the nomenclature of "floodwaters" since it does not correspond to the common understanding of a flood.
-    - Could low sewer volume estimates be to blame?e of 10 in Visionmaker, specifically choosing those with the highest precipitation. The Visionmaker NYC model did not predict flooding at any of the reported sites under the observed conditions.
-
-    - Margin of error, since floods may occur through mechanisms outside the model, like trash clogging a drainway or pipe bursts. However, we would expect this to be only a fraction of the floods.
-    - Since the bucket model is used, there is no time dependence. Nuisance flooding, as we've tested here, is generally a transient phenomena, likely occurring only during brief periods of intense precipitation. The generally brief durations of reported floods weakly support this notion. This might best account for the disagreement of prediction with observation.
-- suggestions
-    - allow more precise or direction manipulation of total rainfall in storm events
-    - allow search by longitude and latitude
-    - The flooding model might be adjusted to include time dependence, for example, by considering a precipitation rate exceeding the drainage rate as a cause of temporary flooding.
-    - Consider changing the nomenclature of "floodwaters" since it does not correspond to the common understanding of a flood.
-    - Could low sewer volume estimates be to blame?
-
-![The 26 clusters of flood reports plotted over an outline of New York City. Note the somewhat darker points where two clusters coincide.](../outputs_1/flood_events_and_reports_by_location.png)
+- allow more precise or direction manipulation of total rainfall in storm events
+- allow search by longitude and latitude
+- The flooding model might be adjusted to include time dependence, for example, by considering a precipitation rate exceeding the drainage rate as a cause of temporary flooding.
+- Consider changing the nomenclature of "floodwaters" since it does not correspond to the common understanding of a flood.
+- Could low sewer volume estimates be to blame?
 
 [^github]: <https://github.com/jpeacock29/Visionmaker-hydrological-validation>
-[^data]: Original data available at <https://data.cityofnewyork.us/dataset/311-Service-Requests-From-2015/57g5-etyj>
+[^data]:  <https://data.cityofnewyork.us/dataset/311-Service-Requests-From-2015/57g5-etyj>
 [^3]: <http://climodtest.nrcc.cornell.edu/>
 [^4]: Password available upon request
 [^5]: <https://visionmaker.us/resources/models/water/'> and <https://visionmaker.us/info/metric/27/>

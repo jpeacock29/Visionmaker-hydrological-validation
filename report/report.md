@@ -1,3 +1,17 @@
+---
+title: Validation of the Visionmaker NYC Hydrological Model's Nuisance Flooding Predictions
+subtitle: New York City Engineers for a Sustainable World
+author:
+    - Jacob Peacock
+    - Katie Smith
+    - Maya Kutz
+    - New York City Engineers for a Sustainable World
+date: \today{}
+abstract: 
+---
+
+Introduction
+============
 Visionmaker NYC is a web-based, user-friendly, environmental modeling system for New York City (NYC) created by the Wildlife Conservation Society (WCS). The website allows users to choose a climate scenario, quality of life and precipitation events as parameters, collectively referred to as a “Vision” for the city. The model then predicts water consumption, biodiversity, greenhouse gas emission and sustainable population for a selected section of NYC. Users can then change the ecosystems and land uses present in their chosen geographical area.
 Here, we empirically evaluate the floodwater component of the hydrological model used in Visionmaker NYC against observed flooding. Using reports from the NYC 311 help phone line, where residents frequently call to report hazardous or nuisance conditions and request services from the city, we generate a conservative estimate of when and where in NYC flooding occurred 2015. Daily historical weather data was used to estimate the quantity of  precipitation causing each flood. This precipitation was then modelled in Visionmaker NYC and prediction produced for the area with reported flooding.
 

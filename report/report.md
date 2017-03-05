@@ -62,7 +62,7 @@ Results & Discussion
 ====================
 ![The 26 flood events, red, plotted over all flood reports, blue. Note the outline of New York City formed by the flood reports as well as the darker red points where two flood events coincide.](../outputs_1/flood_events_and_reports_by_location.png)
 
-Using the 311 data, 26 flood events were identified.[^flood_events] As a sanity check, we observe that almost all flood events identified occurred during periods of significant precipitation in the historical weather record. Furthermore, flood events often overlap geographically (Fig 1), having flooded during multiple storm events, as might be expected of a low-lying area prone to flooding. To further validate our flood events, future work might also consider elevation and topography data where we would expect only low-lying areas to flood. These checks give us some assurance that our identified flood events are plausible.
+Using the 311 data, 26 flood events were identified.[^flood_events] As a sanity check, we observe that almost all flood events identified occurred during periods of significant precipitation in the historical weather record. Furthermore, flood events often overlap geographically (Fig 2), having flooded during multiple storm events, as might be expected of a low-lying area prone to flooding. To further validate our flood events, future work might also consider elevation and topography data where we would expect only low-lying areas to flood. These checks give us some assurance that our identified flood events are plausible.
 
 Of the 26 flood events, we modeled a sample of 10 in Visionmaker, specifically choosing those with the highest precipitation. The Visionmaker NYC model did not predict flooding at any of the flood events under the observed precipitation conditions.[^results] It is possible that some floods occur through mechanisms outside the Visionmaker model, like trash clogging a drainway, a pipe burst or storm surge. However, we would expect these first two effects to account for only a fraction of floods and storm surge would be limited to those flood events near the coasts. The data does not substantiate any of these hypotheses and we would nonetheless expect at least some of the flood events to correspond to genuine precipitation-induced flooding.
 
@@ -73,7 +73,7 @@ Suggestions
 ===========
 - Adjust the hydrological model to include time dependence, for example, by considering a precipitation rate exceeding the drainage rate as a cause of temporary flooding.
 - Use the data generated in this report as calibration when adjusting parameters and evaluating model choices.
-- Consider changing the nomenclature of "floodwaters" to "other runoff", since it clearly does not correspond to the common understanding of a flood.
+- Consider renaming "floodwaters" to "other runoff", since it does not correspond to the common understanding of a flood.
 
 Minor:
 

@@ -40,5 +40,5 @@ Thumbs.db
 *.pdf
 
 inputs/*
-outputs_0/*
+outputs/*
 *.docx

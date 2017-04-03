@@ -23,4 +23,4 @@ g = ggplot(df) +
     scale_colour_manual(values=c("black", "red")) +
     scale_x_continuous(breaks=seq(1970, 2110, 40))
 
-ggsave("test.png", g, width=6.5, height=4, dpi=300, units="in")
+ggsave("outputs/storm_parameters.png", g, width=6.5, height=4, dpi=300, units="in")

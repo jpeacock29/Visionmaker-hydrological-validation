@@ -13,3 +13,4 @@ pip3 install -r requirements.txt
 # run the analysis
 echo "Warning: The analysis is memory intensive and may take a moment."
 python3 Testing_flood_predictions.py
+Rscript Storm_parameters_figure.r

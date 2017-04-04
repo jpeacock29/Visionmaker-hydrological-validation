@@ -39,7 +39,6 @@ Thumbs.db
 # Additional #
 ##############
 .ipynb_checkpoints
-*.pdf
 inputs/311_2015_flood_reports.csv
 inputs/311_Service_Requests_from_2015.csv
 inputs/311_Service_Requests_from_2015_short.csv

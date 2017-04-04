@@ -20,3 +20,7 @@ New York City Engineers for a Sustainable World's (NYC-ESW) validation of the [V
     - `n_floods_n_outliers_by_esp.png`: Performance of the clustering algorithm for mining flood events.
     - `results.csv`:  Brief table of vital statistics about the data used in `Testing_flood_predictions.*`
     - `storm_parameters.png`: Plot of data from `storm_modelling.csv`.
+
+- `./report/`:
+    - `Validation_of_the_Visionmaker_NYC_Hydrological_Model.md`: Detailed report of our findings.
+    - `Validation_of_the_Visionmaker_NYC_Hydrological_Model.pdf`:  Pdf generated from `Validation_of_the_Visionmaker_NYC_Hydrological_Model.md`

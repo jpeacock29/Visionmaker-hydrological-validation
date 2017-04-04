@@ -1,9 +1,7 @@
 New York City Engineers for a Sustainable World's (NYC-ESW) validation of the [Visionmaker](https://visionmaker.us/nyc/) environmental modeling system's hydrological model.
 
-
-- `make.sh` Download the source data and run the analysis in full (may take some time)
-- `README.md`: This README
-- `requirements.txt`: Required python packages (installed automatically in make.sh)
+- `make.sh` Download the source data and run the analysis in full (may take some time).
+- `README.md`: This README.
 - `Storm_parameters_figure.ipynb`: Equivalent `Storm_parameters_figure.r` but with embedded figures and nicer formatting
 - `Storm_parameters_figure.r`: Plot information about the parameters of the hydrological model
 - `Testing_flood_predictions.py`: Mine high-certainty flooding events from reports made to the 311 New York City help line

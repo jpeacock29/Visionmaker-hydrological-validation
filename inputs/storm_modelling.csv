@@ -1,0 +1,41 @@
+model,rain_event_type,start,end,Intensity,Duration
+Visionmaker,Rainy Day,1970,2010,0.65,6
+Visionmaker,Rainy Day,2020,2029,0.68,6
+Visionmaker,Rainy Day,2050,2059,0.7,6
+Visionmaker,Rainy Day,2080,2089,0.72,6
+Visionmaker,Rainy Day,2100,2109,0.7085,6
+Visionmaker,Rainy Day,1600,1609,0.585,6
+Visionmaker,Severe Storm,1970,2010,1.1,24
+Visionmaker,Severe Storm,2020,2029,1.155,24
+Visionmaker,Severe Storm,2050,2059,1.1825,24
+Visionmaker,Severe Storm,2080,2089,1.21,24
+Visionmaker,Severe Storm,2100,2109,1.199,24
+Visionmaker,Severe Storm,1600,1609,0.99,24
+Visionmaker,Soaking Storm,1970,2010,0.6,12
+Visionmaker,Soaking Storm,2020,2029,0.63,12
+Visionmaker,Soaking Storm,2050,2059,0.65,12
+Visionmaker,Soaking Storm,2080,2089,0.66,12
+Visionmaker,Soaking Storm,2100,2109,0.654,12
+Visionmaker,Soaking Storm,1600,1609,0.54,12
+Visionmaker,Thunderstorm,1970,2010,1.75,1
+Visionmaker,Thunderstorm,2020,2029,1.84,1
+Visionmaker,Thunderstorm,2050,2059,1.88,1
+Visionmaker,Thunderstorm,2080,2089,1.93,1
+Visionmaker,Thunderstorm,2100,2109,1.9075,1
+Visionmaker,Thunderstorm,1600,1609,1.575,1
+NRCC,Rainy Day,1970,1999,0.44,6
+NRCC,Rainy Day,2010,2039,0.47,6
+NRCC,Rainy Day,2040,2069,0.49,6
+NRCC,Rainy Day,2070,2099,0.52,6
+NRCC,Severe Storm,1970,1999,0.4,24
+NRCC,Severe Storm,2010,2039,0.43,24
+NRCC,Severe Storm,2040,2069,0.46,24
+NRCC,Severe Storm,2070,2099,0.49,24
+NRCC,Soaking Storm,1970,1999,0.38,12
+NRCC,Soaking Storm,2010,2039,0.4,12
+NRCC,Soaking Storm,2040,2069,0.42,12
+NRCC,Soaking Storm,2070,2099,0.45,12
+NRCC,Thunderstorm,1970,1999,1.38,1
+NRCC,Thunderstorm,2010,2039,1.93,1
+NRCC,Thunderstorm,2040,2069,2.05,1
+NRCC,Thunderstorm,2070,2099,2.15,1

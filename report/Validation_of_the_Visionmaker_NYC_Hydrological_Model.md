@@ -263,7 +263,7 @@ storm with a 5-year return period has a 1/5 = 20% chance of occurring in
 any given year and occurs on average once every five years.
 
 Table 1: Six Visionmaker storm types and the baseline intensity used to
-determine future intensities.
+determine future intensities.[^8]
 
   **Rain Event**   **Duration** (hour)   **Baseline Intensity** (inch/hour)   **Return Period** (year)
   ---------------- --------------------- ------------------------------------ --------------------------

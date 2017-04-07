@@ -197,8 +197,7 @@ events, future work might also consider elevation data, that may
 confirm flooding occurs in low-lying areas. These checks give
 us some assurance that our identified flood events are plausible.
 
-Of the 26 flood events, we modeled a sample of 10 in Visionmaker,
-specifically choosing those with the highest precipitation. The
+Of the 26 flood events, we modeled a sample of 10 in Visionmaker. The
 Visionmaker model did not predict flooding at any of the flood
 events under the observed precipitation conditions.[^10] It is possible
 that some floods occur through mechanisms outside the Visionmaker model,
